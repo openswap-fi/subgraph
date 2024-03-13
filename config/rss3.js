@@ -4,7 +4,7 @@ const WETH = "0xE27D019909738D98Ab7F850C05eE07806c30c71D";
  * @type import('./config').NetworkConfig
  */
 module.exports = {
-  network: "rss3-vsl",
+  network: "mainnet",
   wNativeAddress: WETH,
 //   v3: {
 //     // WETH-USDT 500
