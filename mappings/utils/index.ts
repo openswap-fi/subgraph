@@ -7,7 +7,7 @@ import { Factory as FactoryContract } from "../../generated/templates/Pair/Facto
 
 export let ADDRESS_ZERO = "0x0000000000000000000000000000000000000000";
 // prettier-ignore
-export let FACTORY_ADDRESS = "0x2F6d9dac92e197bE02aC2DE8BBD7E02837E2dB8d";
+export let FACTORY_ADDRESS = "0x2f6d9dac92e197be02ac2de8bbd7e02837e2db8d";
 
 export let ZERO_BI = BigInt.fromI32(0);
 export let ONE_BI = BigInt.fromI32(1);

@@ -1,4 +1,4 @@
-const WETH = "0xE27D019909738D98Ab7F850C05eE07806c30c71D";
+const WETH = "0xe27d019909738d98ab7f850c05ee07806c30c71d";
 
 /**
  * @type import('./config').NetworkConfig
@@ -26,13 +26,13 @@ module.exports = {
 //     minETHLocked: 0,
 //   },
   v2: {
-    factoryAddress: "0x2F6d9dac92e197bE02aC2DE8BBD7E02837E2dB8d",
+    factoryAddress: "0x2f6d9dac92e197be02ac2de8bbd7e02837e2db8d",
     startBlock: 6077,
-    wNativeStablePair0: "0xE6AfB511A8a2E7f2A35D9B3FaC180fC0F22512Db", // WETH-USDT
-    wNativeStablePair1: "0x6eF455B9514D476448EE6841cdCeB35Be4817032", // WETH-USDC
+    wNativeStablePair0: "0xe6afb511a8a2e7f2a35d9b3fac180fc0f22512db", // WETH-USDT
+    wNativeStablePair1: "0x6ef455b9514d476448ee6841cdceb35be4817032", // WETH-USDC
     whitelistAddresses: [
       WETH,
-      "0x05D032ac25d322df992303dCa074EE7392C117b9", // USDT
+      "0x05d032ac25d322df992303dca074ee7392c117b9", // USDT
       "0xb62f35b9546a908d11c5803ecbba735abc3e3eae", // USDC
     ],
     minETHLocked: 0,
