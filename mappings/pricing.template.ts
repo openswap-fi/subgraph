@@ -6,9 +6,9 @@ import { ADDRESS_ZERO, factoryContract, ONE_BD, ZERO_BD } from "./utils";
 // prettier-ignore
 let WETH_ADDRESS = "{{ wNativeAddress }}";
 // prettier-ignore
-let WETH_USDT_PAIR = "{{ v2.wNativeStablePair1 }}";
+let WETH_USDT_PAIR = "{{ v2.wNativeStablePair0 }}";
 // prettier-ignore
-let WETH_USDC_PAIR = "{{ v2.wNativeStablePair0 }}";
+let WETH_USDC_PAIR = "{{ v2.wNativeStablePair1 }}";
 
 export function getETHPriceInUSD(): BigDecimal {
   // fetch eth prices for each stablecoin

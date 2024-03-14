@@ -6,9 +6,9 @@ import { ADDRESS_ZERO, factoryContract, ONE_BD, ZERO_BD } from "./utils";
 // prettier-ignore
 let WETH_ADDRESS = "0xe27d019909738d98ab7f850c05ee07806c30c71d";
 // prettier-ignore
-let WETH_USDT_PAIR = "0x6ef455b9514d476448ee6841cdceb35be4817032";
+let WETH_USDT_PAIR = "0xe6afb511a8a2e7f2a35d9b3fac180fc0f22512db";
 // prettier-ignore
-let WETH_USDC_PAIR = "0xe6afb511a8a2e7f2a35d9b3fac180fc0f22512db";
+let WETH_USDC_PAIR = "0x6ef455b9514d476448ee6841cdceb35be4817032";
 
 export function getETHPriceInUSD(): BigDecimal {
   // fetch eth prices for each stablecoin
